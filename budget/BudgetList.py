@@ -57,8 +57,7 @@ def main():
     values = [myBudgetList.sum_expenses, myBudgetList.sum_overages, myBudgetList.budget]
 
     # Create the bar graph
-    color = ['green', 'red', 'blue']
-    ax.bar(labels, values, color)
+    ax.bar(labels, values, color=['green', 'red', 'blue'])
 
     # Set the title
     ax.set_title('Your total expenses vs. total budget')
